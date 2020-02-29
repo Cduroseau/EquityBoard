@@ -1,5 +1,3 @@
-
-
 /* CSS Variables */
 :root {
   --primary-color: #21ce99;
@@ -10,11 +8,12 @@
 }
 
 body {
-  font-family: 'Maison Neue',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;;
+  font-family: 'Maison Neue', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  ;
   background-color: #252529;
   margin: 0;
   color: black;
-  
+
 }
 
 img {
@@ -45,8 +44,32 @@ a {
 }
 
 section#entertainment {
-  background: url(../img/section-bg.jpg) no-repeat bottom/cover;
-  padding: 10rem 0;
+  background: rgb(33, 206, 153);
+  padding: 6rem 0;
+}
+
+.demo-text {
+  width: 800px;
+  margin-left: 125px;
+}
+
+.demo-header {
+  text-align: left;
+  font-size: 70px;
+}
+
+.demo-content {
+  text-align: left;
+  font-size: 20px;
+}
+
+.demo-container {
+  display: flex;
+}
+
+.demo-video {
+  border-radius: 36px;
+  outline: none;
 }
 
 .gift-cards {
@@ -60,15 +83,16 @@ section#entertainment {
 #showcase {
   margin: 0;
   padding: 0;
-  background-color: rgb(33,206,153);
+  background-color: rgb(33, 206, 153);
   width: 100%;
-  height: 100vh;
+  min-height: 40vh;
   position: relative;
   overflow-y: hidden;
 }
 
 #showcase .container {
-  margin-top: 25vh;
+  margin-top: 12vh;
+  margin-bottom: 4vh;
 }
 
 #showcase h1 {
@@ -113,9 +137,34 @@ footer .footer-bottom {
   margin: 0 auto;
   padding: 0 3rem;
 }
+
+.overview-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.overview-text {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 80px;
+}
+
+.overview-block {
+  width: 85%;
+  background: black;
+}
+
+.overview-img {
+  width: 600px;
+  margin-right: -80px;
+}
+
 .register-section {
   background: #F5F8FA;
 }
+
 .register-field {
   background: white;
   padding: 4px 8px;
@@ -123,6 +172,7 @@ footer .footer-bottom {
   display: flex;
   border-radius: 8px;
 }
+
 .register-textfield {
   flex: 2;
   border: none;
@@ -130,6 +180,7 @@ footer .footer-bottom {
   font-size: 16px;
   margin-left: 16px;
 }
+
 #register-btn {
   height: 12px;
   margin: 2px 0;
@@ -205,6 +256,7 @@ nav {
   color: #eee;
   position: fixed;
 }
+
 .logo {
   width: 250px;
   margin-left: 14px;
@@ -212,17 +264,21 @@ nav {
   font-size: 24px;
   margin-right: 18px;
 }
+
 .robinhood-logo {
   width: 32px;
 }
+
 nav ul {
   padding: 0;
   margin: 0;
 }
+
 nav li {
   display: inline;
 
 }
+
 nav a {
   display: flex;
   text-align: center;
@@ -232,6 +288,7 @@ nav a {
   text-decoration: none;
   margin: 0 10px;
 }
+
 nav a#openup {
   display: none;
 }
@@ -261,15 +318,18 @@ nav a#openup {
     height: auto;
     border-bottom: 0;
   }
+
   nav ul {
     display: none;
     height: auto;
   }
+
   nav li {
     width: 100%;
     float: left;
     position: relative;
   }
+
   nav a {
     text-align: left;
     width: 100%;
@@ -277,9 +337,11 @@ nav a#openup {
     background: #333;
     border-bottom: 1px solid #555;
   }
+
   nav a:hover {
     background: #444;
   }
+
   nav a#openup:after {
     content: '|||';
     transform: rotate(-90deg);
@@ -294,6 +356,7 @@ nav a#openup {
     right: 5px;
     top: 20px;
   }
+
   nav a#openup {
     display: block;
     background-color: #333;
@@ -301,6 +364,7 @@ nav a#openup {
     position: relative;
   }
 }
+
 .cf:before,
 .cf:after {
   content: '';
