@@ -60,6 +60,10 @@ section#entertainment {
   padding: 6rem 0;
 }
 
+#demo {
+  background: rgb(33, 206, 153);
+}
+
 .demo-text {
   width: 800px;
   margin-left: 125px;
