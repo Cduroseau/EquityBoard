@@ -189,6 +189,7 @@ section#entertainment {
   display: flex;
   width: 98vw;
   justify-content: center;
+  font-size: 18px;
 }
 
 .benefits-text {
